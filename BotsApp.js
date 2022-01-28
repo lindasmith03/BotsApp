@@ -148,7 +148,7 @@ async function main() {
             // args.forEach(arg => console.log("arg -> " + arg  + "  type -> " + typeof(arg)));
             // console.log("-------------------------------------------")
             if (!command) {
-                client.sendMessage(BotsApp.chatId, "```Woops, invalid command! Use```  *.help*  ```to display the command list.```", MessageType.text);
+                client.sendMessage(BotsApp.chatId, "```😏 You have got no chills```", MessageType.text);
                 return;
             } else if (command && BotsApp.commandName == "help") {
                 try {
