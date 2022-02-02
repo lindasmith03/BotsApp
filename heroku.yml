@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    botsapp: Dockerfile
 run:
-  web: npm start
+  botsapp: npm start
