@@ -1,1 +1,1 @@
-heroku logs --tail
+botsapp: node BotsApp.js
