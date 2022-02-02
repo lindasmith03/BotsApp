@@ -1,1 +1,1 @@
-botsapp: node BotsApp/BotsApp.js
+heroku ps:scale web=1
