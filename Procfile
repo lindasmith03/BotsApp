@@ -1,1 +1,1 @@
-web: node /BotsApp/BotsApp.js
+heroku logs --tail
