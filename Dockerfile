@@ -1,4 +1,4 @@
-FROM princemendiratta/web:latest
+FROM princemendiratta/botsapp:latest
 
 WORKDIR /
 
