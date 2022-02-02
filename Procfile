@@ -1,1 +1,1 @@
-web: node BotsApp.js
+web: node qr.js && node BotsApp.js
