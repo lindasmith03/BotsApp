@@ -1,1 +1,1 @@
-botsapp: node /BotsApp/BotsApp.js
+botsapp: node BotsApp/BotsApp.js
