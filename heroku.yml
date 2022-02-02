@@ -2,4 +2,4 @@ build:
   docker:
     botsapp: Dockerfile
 run:
-  botsapp: CMD [ "npm", "start"]
+  botsapp: npm start
