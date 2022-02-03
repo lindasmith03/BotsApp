@@ -1,2 +1,6 @@
+build:
+  docker:
+    botsapp: Dockerfile
 run:
-  botsapp: npm start
+  docker:
+    botsapp: npm start
