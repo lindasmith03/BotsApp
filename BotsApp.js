@@ -175,3 +175,8 @@ main().catch(err => console.log('[ERROR] : %s', chalk.redBright.bold(err)));
 app.listen(process.env.PORT || 8080, () => {
   console.log(`Server listening at Port: ${process.env.PORT || 8080}`);
 });
+app.get("/", (req, res) => {
+  res.send(
+    '<h1>This server is powered by Whatsbot<br><a href="https://github.com/TheWhatsBot/WhatsBot">https://github.com/TheWhatsBot/WhatsBot</a></h1>'
+  );
+});
