@@ -177,6 +177,6 @@ app.listen(process.env.PORT || 8080, () => {
 });
 app.get("/", (req, res) => {
   res.send(
-    '<h1>This server is powered by Whatsbot<br><a href="https://github.com/TheWhatsBot/WhatsBot">https://github.com/TheWhatsBot/WhatsBot</a></h1>'
+    '<h1>Dobby is under Maintenance mode</a></h1>'
   );
 });
